@@ -21,6 +21,19 @@ print(even_numbers)
 mix_data_types = [1, 4, 5, 'one', 'four', 'five']
 print(mix_data_types)
 
+# Generating an empty list (array)
+empty_list = []
+print(empty_list)
+
+#Generating a list (array) of lists (arrays)
+list_of_lists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]   
+print(list_of_lists)
+
+#Genrating a list using the list() function
+names = 'Jam', 'Jan', 'Kin', 'Kan'
+names_list = list(names)
+print(names_list)
+
 # Indexing
 print(East_Africa[0])  # Kenya
 
