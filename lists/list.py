@@ -42,3 +42,8 @@ print(East_Africa[-1])  # Burundi
 
 # Slicing
 print(even_numbers[0:3])  # [0, 2, 4]
+
+# Appending in a list
+odd_numbers = [1, 3, 5]
+odd_numbers.append(7)
+print(odd_numbers)
