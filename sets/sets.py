@@ -70,3 +70,34 @@ print(colors)
 colors = {'blue', 'white', 'black', 'yellow', 'red'}
 colors.discard('blue')
 print(colors)
+
+# Removing items from a set - Method 3, removes a random item
+even_numbers = {0, 2, 4, 6, 8, 10}
+even_numbers.pop()
+print(even_numbers)
+
+# Removing all items from a set
+even_numbers = {0, 2, 4, 6, 8, 10}
+even_numbers.clear()
+print(even_numbers)
+
+# Deleting a set
+even_numbers = {0, 2, 4, 6, 8, 10}
+del even_numbers
+#print(even_numbers)
+
+# Loops in sets
+fruits = {'mango', 'kiwi', 'banana', 'apple', 'orange'}
+for each in fruits:
+    print(each)
+
+# Joining sets
+continents_1 = {'Africa', 'Asia', 'Australasia'}
+continents_2 = {'Europe', 'North America', 'South America'}
+
+continents = continents_1.union(continents_2)
+print(continents)
+
+# Joining sets (2)
+continents = continents_1.update(continents_2)
+print(continents_1)
