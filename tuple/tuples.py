@@ -65,3 +65,14 @@ odd_numbers_list = list(odd_numbers)
 odd_numbers_list.remove(11)
 odd_numbers = tuple(odd_numbers_list)
 print(odd_numbers)
+
+# Joining tuples
+letters_1 = ('a', 'b', 'c', 'd', 'e')
+letters_2 = ('f', 'g', 'h', 'i', 'j')
+letters = letters_1 + letters_2
+print(letters)
+
+# Multiply tuples
+letters = ('a', 'b', 'c')
+letters = letters * 3
+print(letters)
