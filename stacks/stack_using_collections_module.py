@@ -1,7 +1,7 @@
 # A stack using collections module
 import collections
-even_numbers_stack = collections.deque()
 
+even_numbers_stack = collections.deque()
 even_numbers_stack
 
 # Adding elements
