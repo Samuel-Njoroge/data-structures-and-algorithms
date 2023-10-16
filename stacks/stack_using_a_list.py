@@ -1,3 +1,4 @@
+# A stack with  push() and pop() using a list
 stack = []
 
 def push():
