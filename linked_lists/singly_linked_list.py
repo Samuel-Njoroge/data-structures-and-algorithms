@@ -21,7 +21,7 @@ Each element is connected only to its next element using a pointer.
 
 # Insertion / Adding elements
 """
-At the beggining
+At the beginning
 1. Create node
 2. Change new node next = head
 3. Head = the new created node
@@ -39,7 +39,7 @@ In between
 
 # Deletion
 """
-At the beggining
+At the beginning
 1. Change the head of first node to the second node
 
 At the end

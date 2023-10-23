@@ -1,11 +1,11 @@
-# Adding elements at the beggining of the list
+# Adding elements at the beginning of the list
 """
 1. Create a new node
 2. New node = head
 3. head = new_node
 """
 
-# Insertion at the beggining of the node
+# Insertion at the beginning of the node
 class Node:
     def __init__(self, data):
         self.data = data
@@ -23,6 +23,7 @@ class LinkedList:
             while n is not None:
                 print(n.data)
                 n = n.ref
+    # Add element at the beginning
     def add_begin(self, data):
         new_node = Node(data)
         new_node.ref = self.head
